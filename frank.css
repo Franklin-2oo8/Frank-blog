@@ -1,3 +1,6 @@
+html {
+  font-size: 16px;
+}
 h1{
   text-align: center;
   margin-top: 17%;
@@ -8,7 +11,7 @@ body{
   background-attachment: fixed;
   color: white;
   font-family: Times New Roman;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   background-blend-mode: lighten;
   
 }
@@ -65,3 +68,15 @@ a{
 }
 h6{
   color: black;
+}
+img{
+  width: 80%;
+  margin: 2%;
+  aspect-ratio: 4:3;
+  border-radius: 5%;
+}
+button{
+  padding: 3%;
+  font-size: 1rem;
+  border-radius: 9%;
+}
