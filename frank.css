@@ -11,7 +11,7 @@ body{
   background-attachment: fixed;
   color: white;
   font-family: Times New Roman;
-  font-size: 1.55rem;
+  font-size: 1.75rem;
   background-blend-mode: lighten;
   
 }
@@ -35,7 +35,7 @@ div{
 }
 span{
   color: black;
-  font-size: 3rem;
+  font-size:4.5rem;
   font-weight: bold;
   background-color: white;
   padding-left: 2%;
@@ -56,7 +56,7 @@ section{
 }
 .date {
   color: #888;           /* soft gray */
-  font-size: 1rem;    /* slightly smaller */
+  font-size: 1.2rem;    /* slightly smaller */
   margin: 8px 0 20px 0;  /* nice spacing */
   font-style: italic;
 }
@@ -77,6 +77,6 @@ img{
 }
 button{
   padding: 3%;
-  font-size: 1.1rem;
+  font-size: 1.21rem;
   border-radius: 9%;
 }
