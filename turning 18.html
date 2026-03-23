@@ -87,8 +87,29 @@
        
      </script>
       <div class="commentbox"></div>
+
 <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-<script>commentBox('5763725508214784-proj')</script>
+<script>
+  commentBox('5763725508214784-proj', {
+    // Core colors to match your dark/purple theme
+    backgroundColor: '#111111',     // very dark gray (close to black)
+    textColor: '#eeeeee',           // light gray/white text
+    accentColor: '#bb86fc',         // your purple accent for links/buttons
+    primaryColor: '#bb86fc',        // buttons, highlights
+    secondaryColor: '#9f6ae0',      // hover states, secondary accents
+    
+    // Optional: more control if needed
+    borderColor: '#333333',
+    inputBackground: '#1a1a1a',
+    inputTextColor: '#eeeeee',
+    buttonBackground: '#bb86fc',
+    buttonTextColor: '#000000',
+    
+    // Make it feel more like your blog
+    fontFamily: 'system-ui, sans-serif',
+    borderRadius: '8px'
+  });
+</script>
   </body>
   
 </html>
